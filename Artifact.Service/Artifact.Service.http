@@ -1,0 +1,6 @@
+@Artifact.Service_HostAddress = http://localhost:5055
+
+GET {{Artifact.Service_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
